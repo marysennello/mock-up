@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  font-family: arial, helvetica, sans-serif;
+}
+header {
+  background-color: #66b6d2;
+  padding: 4rem;
+}
+aside {
+  float: right;
+  padding: 1rem;
+  width: 25%;
+}
+h1 {
+  color: #FFFFFF;
+  font-size: 3rem;
+  background-color: #66b6d2;
+}
+h2 {
+  color: #FFFFFF;
+  font-size: 2rem;
+  font-style: italic;
+}
+nav {
+  background-color: #D3D3D3;
+  padding: 1rem;
+}
+.left {
+  width: 75%
+}
