@@ -1,17 +1,19 @@
 * {
   box-sizing: border-box;
   font-family: helvetica, sans-serif;
-
+  line-height: 110%;
+  color: #453f3d;
 }
 header {
   background-color: #4aabc3;
-  padding-left: 5rem;
   padding-top: 3rem;
   padding-bottom: 3rem;
+  padding-left: 7rem;
 }
 aside {
   float: right;
   padding: 1rem;
+  margin-right: 7rem;
   padding-right: 3rem;
   width: 30%;
 }
@@ -27,17 +29,25 @@ h2 {
   font-weight: lighter;
   margin-top: -2rem;
   width: 25%;
-
+}
+p{
+  font-size: 98%;
+}
+figure>img {
+  width: 95%;
 }
 
 blockquote {
   color:#4aabc3;
   font-size: 1.5rem;
+  font-weight: lighter;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 nav {
   background-color: #ECECEC;
   padding: 1rem;
-  padding-left: 5rem;
+  padding-left: 7rem;
   font-weight: bold;
   color: black;
 }
@@ -50,7 +60,7 @@ nav {
 }
 
 article {
-  margin-left: 5rem;
+  margin-left: 7rem;
   margin-right: 1rem;
   width: 65%
 }
