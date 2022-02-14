@@ -2,13 +2,15 @@
   box-sizing: border-box;
   font-family: helvetica, sans-serif;
   line-height: 110%;
-  color: #453f3d;
 }
 header {
   background-color: #4aabc3;
   padding-top: 3rem;
   padding-bottom: 3rem;
   padding-left: 7rem;
+  background-image: url("https://raw.githubusercontent.com/UWFront-End-Cert/starters/master/lesson04-mock2-banner-image.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 aside {
   float: right;
@@ -30,9 +32,15 @@ h2 {
   margin-top: -2rem;
   width: 25%;
 }
+h3 {
+  color: #453f3d;
+}
+
 p{
   font-size: 98%;
+  color: #453f3d;
 }
+
 figure>img {
   width: 95%;
 }
@@ -77,13 +85,19 @@ figure {
 }
 footer {
   clear: both;
+  background-image: url("https://raw.githubusercontent.com/UWFront-End-Cert/starters/master/lesson04-mock4-footer-image.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
   background-color: #453f3d;
-  padding: 3rem;
-  text-align: center;
   color: white;
   font-size: 0.75rem;
+  padding: 5rem;
+  text-align: center;
 }
 a {
   color: #4aabc3;
   font-size: 1rem;
+}
+.footer {
+  color: #FFFFFF;
 }
