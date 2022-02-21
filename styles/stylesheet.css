@@ -22,7 +22,7 @@ aside {
 h1 {
   color: #FFFFFF;
   font-size: 3rem;
-  padding: -0.5rem
+  padding: 0rem
 }
 h2 {
   color: #FFFFFF;
@@ -34,6 +34,10 @@ h2 {
 }
 h3 {
   color: #453f3d;
+
+}
+h4 {
+  margin-bottom: -1rem;
 }
 
 p{
@@ -70,14 +74,11 @@ nav {
 article {
   margin-left: 7rem;
   margin-right: 1rem;
-  width: 65%
 }
 .narrow {
-  padding-left: 4rem;
-  margin-right: 4rem;
-}
-figure {
-  margin-left: -0.25rem;
+  margin-left: 7rem;
+  margin-right: 1rem;
+  width: 55%
 }
 
 .bluetext {
@@ -101,9 +102,25 @@ a {
 .footer {
   color: #FFFFFF;
 }
-
-.thumbnails {
+.footer img {
   width: 200px;
-  border: 1px solid #453f3d;
-  padding: 5px;
+}
+
+.image-list-small li {
+  display: inline-block;
+  width: 30%;
+  margin: 0 10px 2px;
+  text-align: center;
+  margin: 1rem;
+  padding: 3rem;
+}
+.image-list-small li>img {
+  display: block;
+  margin: 0 3rem;
+  object-fit: cover;
+  object-position: top;
+  border: 4px solid darkslateblue;
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
 }
